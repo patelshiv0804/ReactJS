@@ -1,0 +1,13 @@
+.container {
+    margin: 20px auto;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding: 10px 20px;
+    font-family: cursive;
+}

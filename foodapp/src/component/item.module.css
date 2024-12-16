@@ -1,0 +1,40 @@
+.itemContainer {
+    display: flex;
+    /* justify-content: center ; */
+    align-items: center;
+
+    gap: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: 120px;
+    margin: 10px auto;
+    /* margin-left: 20px; */
+    padding-left: 20px;
+}
+
+.itemImage {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.itemName {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.itemAmount {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.nameContainer {
+    margin-left: 20px;
+}

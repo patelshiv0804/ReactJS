@@ -1,0 +1,10 @@
+.header {
+    background-color: rgb(240, 169, 14);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
