@@ -5,7 +5,7 @@ import FoodList from "./component/FoodList";
 import Nav from "./component/Nav";
 import "./App.css";
 import Container from "./component/Container";
-import InnerContainer from "./component/InnerContainer";
+import InnerContainer from "./component/Innercontainer";
 import FoodDetails from "./component/FoodDetails";
 
 function App() {
@@ -17,12 +17,12 @@ function App() {
       <Search setFoodData={setFoodData} />
 
       <Container>
-        <Innercontainer>
+        <InnerContainer>
           <FoodList setfoodId={setfoodId} FoodData={FoodData} />
-        </Innercontainer>
-        <Innercontainer>
+        </InnerContainer>
+        <InnerContainer>
           <FoodDetails foodId={foodId} />
-        </Innercontainer>
+        </InnerContainer>
       </Container>
     </div>
   );
